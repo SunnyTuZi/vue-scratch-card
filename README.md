@@ -1,1 +1,4 @@
-# ScratchCard
+# vue-scratch-card
+
+
+
