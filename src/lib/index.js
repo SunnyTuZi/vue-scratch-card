@@ -1,11 +1,11 @@
-import VueScratchCard from './vue-scratch-card'
+import ScratchCard from './vue-scratch-card'
 
-const scratchCard = {
-  install(Vue, options) {
-    Vue.component(VueScratchCard.name, VueScratchCard)
-  }
-}
-if (typeof window !== 'undefined' && window.Vue) {
-  window.Vue.use(VueScratchCard);
-}
-export default scratchCard
+// const scratchCard = {
+//   install:function(Vue) {
+//     Vue.component(ScratchCard.name, ScratchCard)
+//   }
+// }
+// if (typeof window !== 'undefined' && window.Vue) {
+//   window.Vue.use(ScratchCard);
+// }
+export default ScratchCard

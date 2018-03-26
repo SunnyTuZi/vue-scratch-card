@@ -5,16 +5,16 @@
 </template>
 
 <script>
-  import ScratchCard from './lib/vue-scratch-card'
+  // import ScratchCard from './lib/index.js'
   export default{
     data(){
       return{
         cover:'#77eaa4'
       }
     },
-    components:{
-      ScratchCard
-    },
+    // components:{
+    //   ScratchCard
+    // },
     methods:{
       scratchSuccess(){
         alert('中奖了！')

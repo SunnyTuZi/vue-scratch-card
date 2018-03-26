@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    //filename: 'build.js'
+    // filename: 'build.js',
     filename:'vue-scratch-card.js',
     library:'ScratchCard',
     libraryTarget:'umd',
